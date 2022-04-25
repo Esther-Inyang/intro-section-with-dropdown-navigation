@@ -40,6 +40,7 @@ body{
 
 .open-menu-div{
     width: 10%;
+    padding-top: 1rem;
 }
 
 .open-menu-icon{
@@ -55,12 +56,11 @@ body{
     z-index: 1000;
     transition: .3s linear;
     background-color: hsl(0, 0%, 8%, .7);
-
     display: none;
 }
 
 .menu{
-    width: 70%;
+    width: 60%;
     height: 100%;
     list-style-type: none;
     padding: 0 2rem 0 2rem;
@@ -173,6 +173,7 @@ body{
 }
 
 .about-page{
+    padding: 1rem;
     text-align: center;
 }
 
@@ -214,10 +215,6 @@ body{
     
 }
 
-.hero{
-
-}
-
 /*****************************Style-Guide-end********************************/
 
 /* Attribution */
@@ -236,6 +233,144 @@ body{
     color: plum; 
 }
 
-@media screen and (min-width: 992%){
-    
+@media screen and (min-width: 768px){
+    .open-menu-icon{
+        width: 5rem;
+        height: 3.5rem;
+    }
+
+    .close-menu-div{
+        padding: 0 2rem 2rem 0;
+    }
+
+    .close-menu-icon{
+        width: 4rem;
+        height: 3.5rem;
+    }
+
+    .menu{
+        width: 50%;
+    }
+
+    .menu-link{
+        font-size: 3rem;
+    }
+
+    .menu li{
+        padding: 4rem 0 0 0;
+    }
+
+    .angle-down-icon,
+    .angle-up-icon,
+    .angle-down-b-icon,
+    .angle-up-b-icon{
+        width: 1.5rem;
+        height: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .todo-list,
+    .calendar,
+    .reminder,
+    .planning,
+    .company-items a{
+        padding: 4rem 0 0 0;
+    }
+
+    .todo-list,
+    .calendar,
+    .reminder,
+    .planning{
+        gap: 2rem;
+        padding-left: 4rem;
+    }
+
+    .todo-icon,
+    .calendar-icon,
+    .reminder-icon,
+    .planning-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .company-items{
+        padding-left: 4rem;
+    }
+
+    /* Hero Section */
+    .hero{
+        height: 45rem;
+        margin: 5rem 0;
+        background-size: cover;
+    }
+
+    .about-page{
+        padding: 2rem;
+    }
+
+    .page-title{
+        font-size: 5rem;
+    }
+
+    .page-intro-text{
+        line-height: 4rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .logo{
+        width: 15%;
+    }
+
+    .open-menu-div{
+        display: none;
+    }
+
+    .hero-section{
+        width: 90%;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        gap: 15rem;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+        
+    .hero{
+        width: 30%;
+        height: 48rem;
+        margin: 0;
+        background-image: url("./images/image-hero-desktop.png");
+        background-size: contain;
+    }
+
+    .about-page{
+        width: 45%;
+        height: 40rem;
+        text-align: left;
+    }
+
+    .page-title{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+        font-size: 6rem;
+    }
+
+    .page-intro-text{
+        width: 75%;
+        font-size: 1.9rem;
+        line-height: 3rem;
+    }
+
+    /* .featuring-clients{
+        margin: 2rem 0 7rem 0;
+    } */
+
+    .attribution { 
+        width: 100%;
+        margin-top: 5rem;
+    }
 }
