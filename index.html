@@ -20,78 +20,84 @@
 </head>
 <body>
   <header class="header">
-    <div class="logo-div">
-      <img src="./images/logo.svg" class="logo" alt="logo">
+    <div class="logo-and-menu-div">
+      <div class="logo_and_open-menu-icon">
+        <div class="logo-div">
+          <img src="./images/logo.svg" class="logo" alt="logo">
+        </div>
+         
+        <div class="open-menu-div">
+          <img src="./images/icon-menu.svg" class="open-menu-icon" alt="open-menu-icon">
+        </div>
+      </div>
+
+      <section class="menu-section">
+        <ul class="menu">
+          <li class="list-item">
+            <div class="close-menu-div">
+              <img src="./images/icon-close-menu.svg" class="close-menu-icon" alt="close-menu-icon">
+            </div>
+  
+            <a href="#" class="menu-link features" id="features">Features</a>
+            <span class="feature-angle-icons">
+              <img src="./images/icon-arrow-down.svg" class="feature-angle-down" alt="angle-down" id="features-angle-down">
+  
+              <img src="./images/icon-arrow-up.svg" class="feature-angle-up" alt="angle-up" id="features-angle-up">
+            </span>
+  
+            <div class="feature-items">
+              <div class="todo-list">
+                <img src="./images/icon-todo.svg" class="todo-icon">
+                <a href="#" class="todo-link menu-link">Todo List</a>
+              </div>
+  
+              <div class="calendar">
+                <img src="./images/icon-calendar.svg" class="calendar-icon">
+                <a href="#" class="calendar-link menu-link">Calendar</a>
+              </div>
+  
+              <div class="reminder">
+                <img src="./images/icon-reminders.svg" class="reminder-icon">
+                <a href="#" class="reminder-link menu-link">Reminders</a>
+              </div>
+  
+              <div class="planning">
+                <img src="./images/icon-planning.svg" class="planning-icon">
+                <a href="#" class="planning-link menu-link">Planning</a>
+              </div>
+            </div>
+          </li>
+  
+          <li class="list-item">
+            <a href="#" class="menu-link company" id="company">Company</a>
+            <span class="company-angle-icons">
+              <img src="./images/icon-arrow-down.svg" class="company-angle-down" alt="angle-down" id="company-angle-down">
+  
+              <img src="./images/icon-arrow-up.svg" class="company-angle-up" alt="angle-up" id="company-angle-up">
+            </span>
+            
+            <div class="company-items">
+              <a href="#" class="menu-link history">History</a>
+              <a href="#" class="menu-link our-team">Our Team</a>
+              <a href="#" class="menu-link blog">Blog</a>
+            </div>
+          </li>
+  
+          <li class="list-item">
+            <a href="#" class="menu-link career">Careers</a>
+          </li>
+  
+          <li class="list-item">
+            <a href="#" class="menu-link about">About</a>
+          </li>
+        </ul>
+      </section>
     </div>
-     
-    <div class="open-menu-div">
-      <img src="./images/icon-menu.svg" class="open-menu-icon" alt="open-menu-icon">
+
+    <div class="sign-up-btn-div">
+      <button class="login-btn">Login</button> 
+      <button class="register-btn">Register</button> 
     </div>
-
-    <section class="menu-section">
-      <ul class="menu">
-        <li>
-          <div class="close-menu-div">
-            <img src="./images/icon-close-menu.svg" class="close-menu-icon" alt="close-menu-icon">
-          </div>
-
-          <a href="#" class="menu-link features">Features</a>
-          <span class="feature-angle-icons">
-            <img src="./images/icon-arrow-down.svg" class="angle-down-icon" alt="angle-down">
-
-            <img src="./images/icon-arrow-up.svg" class="angle-up-icon" alt="angle-up">
-          </span>
-
-          <div class="feature-items">
-            <div class="todo-list">
-              <img src="./images/icon-todo.svg" class="todo-icon">
-              <a href="#" class="todo-link menu-link">Todo List</a>
-            </div>
-
-            <div class="calendar">
-              <img src="./images/icon-calendar.svg" class="calendar-icon">
-              <a href="#" class="calendar-link menu-link">Calendar</a>
-            </div>
-
-            <div class="reminder">
-              <img src="./images/icon-reminders.svg" class="reminder-icon">
-              <a href="#" class="reminder-link menu-link">Reminders</a>
-            </div>
-
-            <div class="planning">
-              <img src="./images/icon-planning.svg" class="planning-icon">
-              <a href="#" class="planning-link menu-link">Planning</a>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <a href="#" class="menu-link">Company</a>
-          <span class="company-angle-icons">
-            <img src="./images/icon-arrow-down.svg" class="angle-down-b-icon" alt="angle-down">
-
-            <img src="./images/icon-arrow-up.svg" class="angle-up-b-icon" alt="angle-up">
-          </span>
-          
-          <div class="company-items">
-            <a href="#" class="history menu-link">History</a>
-            <a href="#" class="our-team menu-link">Our Team</a>
-            <a href="#" class="blog menu-link">Blog</a>
-          </div>
-        </li>
-        <li>
-          <a href="#" class="menu-link career">Careers</a>
-        </li>
-        <li>
-          <a href="#" class="menu-link about">About</a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- <div class="sign-up-btn-div">
-      <button class="login">Login</button> 
-      <button class="register">Register</button> 
-    </div> -->
   </header>
 
   <main>
@@ -107,7 +113,7 @@
 
         <p class="page-intro-text">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
 
-        <button class="learn-more">Learn More</button>
+        <button class="learn-more-btn">Learn More</button>
 
         <div class="featuring-clients">
           <img src="./images/client-databiz.svg" class="client-logo">
